@@ -64,7 +64,7 @@ const Header = () => {
 
 
                     <div className="flex items-center gap-4">
-                        <Dropdown placement="bottom-end">
+                        <Dropdown placement="bottom-end" className='rounded'>
                             <DropdownTrigger>
                                 <Avatar
                                     className='border-2 border-default-400'
@@ -72,7 +72,7 @@ const Header = () => {
                                     src="https://i.pravatar.cc/150?u=a042581f4e29026024d"
                                 />
                             </DropdownTrigger>
-                            <DropdownMenu aria-label="User Actions" variant="flat">
+                            <DropdownMenu aria-label="User Actions" variant="flat" itemClasses={{ base: 'rounded' }}>
                                 <DropdownSection showDivider>
                                     <DropdownItem key="profile" className="h-14 gap-2">
                                         <p className="font-bold">Signed in as</p>
