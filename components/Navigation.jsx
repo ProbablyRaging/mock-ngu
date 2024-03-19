@@ -176,10 +176,6 @@ const Navigation = () => {
                         Glitches
                     </Button>
                 </div>
-
-                <div className='text-white'>
-                    Profile
-                </div>
             </div>
 
         </div>
