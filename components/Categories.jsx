@@ -163,7 +163,7 @@ const Categories = () => {
                                         <div className='flex flex-wrap gap-x-8 gap-y-1 max-w-[40%] pl-[75px] mb-2'>
                                             {forum.sub_forums && Object.values(forum.sub_forums).map((subforum, index) => (
                                                 <Link href={subforum.path || ''}>
-                                                    <p key={index} className='flex items-center text-sm'>
+                                                    <p key={index} className='flex items-center text-xs'>
                                                         ↪ {subforum.name}
                                                     </p>
                                                 </Link>
